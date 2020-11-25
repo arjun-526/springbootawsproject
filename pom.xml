@@ -33,7 +33,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>vinayaka-anjaneya</finalName>
+		<finalName>v-a</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

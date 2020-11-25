@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AwsDemoController {
 
-    @GetMapping(value = "/hello")
-    public String home(){
-        return "Welcome to Aws first Deployment !!!!";
+    @RequestMapping("/getname")
+    public String getName(){
+        return "Welcome to Aws first Deployment Arjun !!!!";
     }
 }
